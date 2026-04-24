@@ -1,0 +1,125 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="description" content="Contact Aryan Gupta." />
+    <title>Aryan Gupta | Contact</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <nav class="nav-pill glass" aria-label="Primary">
+        <a class="brand" href="index.html" aria-label="Go to Home">Aryan Gupta</a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="Toggle navigation menu"
+          aria-controls="primary-nav"
+          aria-expanded="false"
+        >
+          <span aria-hidden="true">Menu</span>
+        </button>
+
+        <div id="primary-nav" class="nav-links" data-collapsible>
+          <a href="index.html" data-nav="home">Home</a>
+          <a href="projects.html" data-nav="projects">Projects</a>
+          <a href="education.html" data-nav="education">Education</a>
+          <a href="contact.html" data-nav="contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main" class="container">
+      <section class="page-head glass">
+        <h1>Contact</h1>
+        <p class="muted">
+          Use this form to send a message. (Front-end only — no backend.)
+        </p>
+      </section>
+
+      <section class="section">
+        <div class="grid-2">
+          <form class="card glass form" data-contact-form novalidate>
+            <div class="field">
+              <label for="name">Name</label>
+              <input id="name" name="name" type="text" autocomplete="name" required />
+              <p class="error" data-error-for="name" aria-live="polite"></p>
+            </div>
+
+            <div class="field">
+              <label for="email">Email</label>
+              <input
+                id="email"
+                name="email"
+                type="email"
+                autocomplete="email"
+                inputmode="email"
+                required
+              />
+              <p class="error" data-error-for="email" aria-live="polite"></p>
+            </div>
+
+            <div class="field">
+              <label for="message">Message</label>
+              <textarea id="message" name="message" rows="6" required></textarea>
+              <p class="error" data-error-for="message" aria-live="polite"></p>
+            </div>
+
+            <div class="form-actions">
+              <button class="btn primary" type="submit">Send message</button>
+              <a class="btn ghost" href="mailto:your-email@example.com">Email me</a>
+            </div>
+
+            <p class="form-success" data-form-success aria-live="polite"></p>
+          </form>
+
+          <aside class="card glass">
+            <h2 class="h3">Find me online</h2>
+            <p class="muted">
+              Replace these placeholders with your real links.
+            </p>
+
+            <div class="link-list" role="list">
+              <a role="listitem" class="link-row" href="#" rel="noreferrer">
+                <span>GitHub</span>
+                <span class="muted">github.com/username</span>
+              </a>
+              <a role="listitem" class="link-row" href="#" rel="noreferrer">
+                <span>LinkedIn</span>
+                <span class="muted">linkedin.com/in/username</span>
+              </a>
+              <a role="listitem" class="link-row" href="mailto:your-email@example.com">
+                <span>Email</span>
+                <span class="muted">your-email@example.com</span>
+              </a>
+            </div>
+
+            <div class="divider" aria-hidden="true"></div>
+
+            <p class="muted">
+              Tip: if you want real submissions without a backend, you can wire
+              the form to a service like Formspree later.
+            </p>
+          </aside>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner glass">
+        <p class="muted">© <span id="year"></span> Aryan Gupta</p>
+        <div class="footer-links">
+          <a href="index.html">Home</a>
+          <a href="projects.html">Projects</a>
+          <a href="education.html">Education</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+  </body>
+</html>

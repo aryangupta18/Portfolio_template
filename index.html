@@ -1,0 +1,189 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta
+      name="description"
+      content="Aryan Gupta — personal portfolio featuring projects, education, and contact details."
+    /><link rel="icon" type="image/x-icon" href="assets/icons/logo.png">
+    <title>Aryan Gupta | Portfolio</title>
+    <link rel="stylesheet" href="css/styles.css" />
+  </head>
+  <body>
+    <a class="skip-link" href="#main">Skip to content</a>
+
+    <header class="site-header">
+      <nav class="nav-pill glass" aria-label="Primary">
+        <a class="brand" href="index.html" aria-label="Go to Home">Aryan Gupta</a>
+
+        <button
+          class="nav-toggle"
+          type="button"
+          aria-label="Toggle navigation menu"
+          aria-controls="primary-nav"
+          aria-expanded="false"
+        >
+          <span aria-hidden="true">Menu</span>
+        </button>
+
+        <div id="primary-nav" class="nav-links" data-collapsible>
+          <a href="index.html" data-nav="home">Home</a>
+          <a href="projects.html" data-nav="projects">Projects</a>
+          <a href="education.html" data-nav="education">Education</a>
+          <a href="contact.html" data-nav="contact">Contact</a>
+        </div>
+      </nav>
+    </header>
+
+    <main id="main" class="container">
+      <section class="hero glass">
+        <p class="eyebrow">Welcome</p>
+        <h1>Hi, I’m Aryan.</h1>
+        <p class="lead">
+          I build clean, modern web experiences with HTML, CSS, and JavaScript.
+        </p>
+
+        <div class="hero-actions">
+          <a class="btn primary" href="projects.html">View Projects</a>
+          <a class="btn ghost" href="contact.html">Contact Me</a>
+        </div>
+
+        <div class="hero-stats">
+          <div class="stat">
+            <p class="stat-k">Glass UI</p>
+            <p class="stat-v">Consistent design</p>
+          </div>
+          <div class="stat">
+            <p class="stat-k">Multi-page</p>
+            <p class="stat-v">Fast + simple</p>
+          </div>
+          <div class="stat">
+            <p class="stat-k">Vanilla JS</p>
+            <p class="stat-v">No frameworks</p>
+          </div>
+        </div>
+      </section>
+
+      <section class="section">
+        <header class="section-header">
+          <h2>About</h2>
+          <p>
+            This is a short introduction about me. Replace this text with your
+            real bio: what you’re learning, what you enjoy building, and what
+            you’re looking for.
+          </p>
+        </header>
+
+        <div class="grid-2">
+          <article class="card glass">
+            <h3>What I do</h3>
+            <p>
+              Frontend-focused development with attention to UI, responsiveness,
+              and clean structure.
+            </p>
+            <ul class="list">
+              <li>Responsive layouts</li>
+              <li>UI polish (glassmorphism)</li>
+              <li>Reusable components</li>
+            </ul>
+          </article>
+
+          <article class="card glass">
+            <h3>Tech stack</h3>
+            <p>Simple, reliable tools for fast iteration.</p>
+            <div class="chips" aria-label="Technology tags">
+              <span class="chip">HTML</span>
+              <span class="chip">CSS</span>
+              <span class="chip">JavaScript</span>
+            </div>
+            <p class="muted">
+              Optional: add Git, GitHub, Tailwind, React, etc. if you use them.
+            </p>
+          </article>
+        </div>
+      </section>
+
+      <section class="section">
+        <header class="section-header">
+          <h2>Featured projects</h2>
+          <p>Three highlights. Add screenshots later if you want.</p>
+        </header>
+
+        <div class="grid-3">
+          <article class="card glass">
+            <div class="card-top">
+              <h3>Project One</h3>
+              <div class="chips">
+                <span class="chip">HTML</span>
+                <span class="chip">CSS</span>
+                <span class="chip">JS</span>
+              </div>
+            </div>
+            <p>
+              Short description of what the project does and what you learned
+              building it.
+            </p>
+            <div class="card-actions">
+              <a class="btn secondary" href="#" rel="noreferrer">Live</a>
+              <a class="btn ghost" href="#" rel="noreferrer">GitHub</a>
+            </div>
+          </article>
+
+          <article class="card glass">
+            <div class="card-top">
+              <h3>Project Two</h3>
+              <div class="chips">
+                <span class="chip">UI</span>
+                <span class="chip">Responsive</span>
+              </div>
+            </div>
+            <p>
+              Short description of what the project does and what you learned
+              building it.
+            </p>
+            <div class="card-actions">
+              <a class="btn secondary" href="#" rel="noreferrer">Live</a>
+              <a class="btn ghost" href="#" rel="noreferrer">GitHub</a>
+            </div>
+          </article>
+
+          <article class="card glass">
+            <div class="card-top">
+              <h3>Project Three</h3>
+              <div class="chips">
+                <span class="chip">Frontend</span>
+                <span class="chip">Vanilla JS</span>
+              </div>
+            </div>
+            <p>
+              Short description of what the project does and what you learned
+              building it.
+            </p>
+            <div class="card-actions">
+              <a class="btn secondary" href="#" rel="noreferrer">Live</a>
+              <a class="btn ghost" href="#" rel="noreferrer">GitHub</a>
+            </div>
+          </article>
+        </div>
+
+        <div class="section-footer">
+          <a class="btn primary" href="projects.html">See all projects</a>
+        </div>
+      </section>
+    </main>
+
+    <footer class="site-footer">
+      <div class="container footer-inner glass">
+        <p class="muted">© <span id="year"></span> Aryan Gupta</p>
+        <div class="footer-links">
+          <a href="projects.html">Projects</a>
+          <a href="education.html">Education</a>
+          <a href="contact.html">Contact</a>
+        </div>
+      </div>
+    </footer>
+
+    <script src="js/main.js" defer></script>
+  </body>
+</html>
