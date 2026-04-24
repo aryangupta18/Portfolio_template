@@ -1,4 +1,4 @@
-# Aryan Portfolio (Multi-page)
+# Portfolio (Multi-page)
 
 Multi-page glassmorphism portfolio built with HTML, CSS, and vanilla JavaScript.
 
